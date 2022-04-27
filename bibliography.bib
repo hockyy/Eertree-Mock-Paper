@@ -1,0 +1,112 @@
+@article{RUBINCHIK2018249,
+title = {EERTREE: An efficient data structure for processing palindromes in strings},
+journal = {European Journal of Combinatorics},
+volume = {68},
+pages = {249-265},
+year = {2018},
+note = {Combinatorial Algorithms, Dedicated to the Memory of Mirka Miller},
+issn = {0195-6698},
+doi = {https://doi.org/10.1016/j.ejc.2017.07.021},
+url = {https://www.sciencedirect.com/science/article/pii/S0195669817301294},
+author = {Mikhail Rubinchik and Arseny M. Shur},
+abstract = {We propose a new linear-size data structure which provides a fast access to all palindromic substrings of a string or a set of strings. This structure inherits some ideas from the construction of both the suffix trie and suffix tree. Using this structure, we present simple and efficient solutions for a number of problems involving palindromes.}
+}
+
+@article{MIENO2022106174,
+title = {Palindromic trees for a sliding window and its applications},
+journal = {Information Processing Letters},
+volume = {173},
+pages = {106174},
+year = {2022},
+issn = {0020-0190},
+doi = {https://doi.org/10.1016/j.ipl.2021.106174},
+url = {https://www.sciencedirect.com/science/article/pii/S0020019021000892},
+author = {Takuya Mieno and Kiichi Watanabe and Yuto Nakashima and Shunsuke Inenaga and Hideo Bannai and Masayuki Takeda},
+keywords = {String algorithms, Data structures, Palindromes, Sliding window},
+abstract = {The palindromic tree (a.k.a. eertree) for a string S of length n is a tree-like data structure that represents the set of all distinct palindromic substrings of S, using O(n) space [Rubinchik and Shur, 2018]. It is known that, when S is over an alphabet of size σ and is given in an online manner, then the palindromic tree of S can be constructed in O(nlog⁡σ) time with O(n) space. In this paper, we consider the sliding window version of the problem: For a sliding window of length at most d, we present two versions of an algorithm which maintains the palindromic tree of size O(d) for every sliding window S[i..j] over S, where 1≤j−i+1≤d. The first version works in O(nlog⁡σ′) time with O(d) space where σ′≤d is the maximum number of distinct characters in the windows, and the second one works in O(n+dσ) time with (d+2)σ+O(d) space. We also show how our algorithms can be applied to efficient computation of minimal unique palindromic substrings (MUPS) and minimal absent palindromic words (MAPW) for a sliding window.}
+}
+
+@InProceedings{borozdin_et_al:LIPIcs:2017:7338,
+  author =	{Kirill Borozdin and Dmitry Kosolobov and Mikhail Rubinchik and Arseny M. Shur},
+  title =	{{Palindromic Length in Linear Time}},
+  booktitle =	{28th Annual Symposium on Combinatorial Pattern Matching (CPM 2017)},
+  pages =	{23:1--23:12},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-039-2},
+  ISSN =	{1868-8969},
+  year =	{2017},
+  volume =	{78},
+  editor =	{Juha K{\"a}rkk{\"a}inen and Jakub Radoszewski and Wojciech Rytter},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{http://drops.dagstuhl.de/opus/volltexte/2017/7338},
+  URN =		{urn:nbn:de:0030-drops-73389},
+  doi =		{10.4230/LIPIcs.CPM.2017.23},
+  annote =	{Keywords: palindrome, palindromic length, palindromic factorization, online}
+}
+
+@misc{kosolobov2013finding,
+      title={Finding Distinct Subpalindromes Online}, 
+      author={Dmitry Kosolobov and Mikhail Rubinchik and Arseny M. Shur},
+      year={2013},
+      eprint={1305.2540},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS}
+}
+
+@article{rubinchik2016number,
+  title={The number of distinct subpalindromes in random words},
+  author={Rubinchik, Mikhail and Shur, Arseny M},
+  journal={Fundamenta Informaticae},
+  volume={145},
+  number={3},
+  pages={371--384},
+  year={2016},
+  publisher={IOS press}
+}
+
+@misc{kosolobov2015mathrmpalk,
+      title={$\mathrm{Pal}^k$ Is Linear Recognizable Online}, 
+      author={Dmitry Kosolobov and Mikhail Rubinchik and Arseny M. Shur},
+      year={2015},
+      eprint={1404.5244},
+      archivePrefix={arXiv},
+      primaryClass={cs.FL}
+}
+
+@misc{rubinchik2020palindromic,
+      title={Palindromic k-Factorization in Pure Linear Time}, 
+      author={Mikhail Rubinchik and Arseny M. Shur},
+      year={2020},
+      eprint={2002.03965},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS}
+}
+
+@article{DRISCOLL198986,
+title = {Making data structures persistent},
+journal = {Journal of Computer and System Sciences},
+volume = {38},
+number = {1},
+pages = {86-124},
+year = {1989},
+issn = {0022-0000},
+doi = {https://doi.org/10.1016/0022-0000(89)90034-2},
+url = {https://www.sciencedirect.com/science/article/pii/0022000089900342},
+author = {James R. Driscoll and Neil Sarnak and Daniel D. Sleator and Robert E. Tarjan},
+abstract = {This paper is a study of persistence in data structures. Ordinary data structures are ephemeral in the sense that a change to the structure destroys the old version, leaving only the new version available for use. In contrast, a persistent structure allows access to any version, old or new, at any time. We develop simple, systematic, and efficient techniques for making linked data structures persistent. We use our techniques to devise persistent forms of binary search trees with logarithmic access, insertion, and deletion times and O(1) space bounds for insertion and deletion.}
+}
+
+@article{FICI201441,
+title = {A subquadratic algorithm for minimum palindromic factorization},
+journal = {Journal of Discrete Algorithms},
+volume = {28},
+pages = {41-48},
+year = {2014},
+issn = {1570-8667},
+doi = {https://doi.org/10.1016/j.jda.2014.08.001},
+url = {https://www.sciencedirect.com/science/article/pii/S1570866714000525},
+author = {Gabriele Fici and Travis Gagie and Juha Kärkkäinen and Dominik Kempa},
+keywords = {String algorithms, Palindromes, Factorization},
+abstract = {We give an O(nlog⁡n)-time, O(n)-space algorithm for factoring a string into the minimum number of palindromic substrings. That is, given a string S[1..n], in O(nlog⁡n) time our algorithm returns the minimum number of palindromes S1,…,Sℓ such that S=S1⋯Sℓ. We also show that the time complexity is O(n) on average and Ω(nlog⁡n) in the worst case. The last result is based on a characterization of the palindromic structure of Zimin words.}
+}
